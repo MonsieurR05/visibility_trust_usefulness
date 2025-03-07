@@ -15,10 +15,10 @@
  */
 
 // Pin definitions
-const int trigPin = 2;      // Trigger pin of the ultrasonic sensor
-const int echoPin = 3;      // Echo pin of the ultrasonic sensor
-const int redLedPin = 4;    // Red LED pin
-const int greenLedPin = 5;  // Green LED pin
+const int trigPin = 4;      // Trigger pin of the ultrasonic sensor
+const int echoPin = 7;      // Echo pin of the ultrasonic sensor
+const int redLedPin = 8;    // Red LED pin
+const int greenLedPin = 12;  // Green LED pin
 
 // Detection parameters
 const int maxDistance = 350;  // Maximum distance to detect (in cm)
